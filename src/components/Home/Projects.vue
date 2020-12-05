@@ -1,5 +1,5 @@
 <template>
-  <div data-column="two" data-size="1" class="column" ref="projects">
+  <div data-column="two" data-size="1" class="column active" ref="projects">
     <a class="enlarge button-pill" ref="button" @click="expand()">Projects</a>
     <div class="flex f-space-between column-head">
       <div class="items__title" :class="[{'flex': !activefilters}, { 'none': activefilters}]">
